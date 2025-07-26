@@ -1,0 +1,24 @@
+
+<!DOCTYPE html>
+<html lang="vi">
+<head>
+  <meta charset="UTF-8">
+  <title>Botchat tuyển sinh</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<div class="chat-toggle" onclick="toggleChat()">💬</div>
+
+<div class="chatbox" id="chatbox">
+  <div class="chat-header">Tư vấn tuyển sinh</div>
+  <div class="chat-messages" id="chatMessages"></div>
+  <div class="chat-input">
+    <input type="text" id="userInput" placeholder="Nhập câu hỏi của bạn...">
+    <button onclick="sendMessage()">Gửi</button>
+  </div>
+</div>
+
+<script src="script.js"></script>
+</body>
+</html>
